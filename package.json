@@ -1,0 +1,25 @@
+{
+  "name": "media-server",
+  "version": "1.0.0",
+  "description": "A simple media server for uploading and retrieving media files",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "media",
+    "server",
+    "upload",
+    "download",
+    "video",
+    "audio"
+  ],
+  "author": {
+    "name": "Francisco Gargiulo"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
